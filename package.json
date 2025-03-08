@@ -1,0 +1,32 @@
+{
+  "name": "wall_app",
+  "version": "1.0.0",
+  "description": "nodeJs, expressJs, MongoDB, EJS",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amirhossein-Olyanasabnarab/Wall_App.git"
+  },
+  "keywords": [
+    "nodeJs",
+    "expressJs",
+    "MongoDB",
+    "EJS"
+  ],
+  "author": "Amirhossein Olyanasab Narab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amirhossein-Olyanasabnarab/Wall_App/issues"
+  },
+  "homepage": "https://github.com/Amirhossein-Olyanasabnarab/Wall_App#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
+  }
+}
